@@ -1,5 +1,5 @@
 body {
-  background:#2C3E50;
+  background:rgb(32, 90, 45);
 }
 
 * {
@@ -13,10 +13,12 @@ body {
   max-width: 600px;
   width: 90%;
   height: 500px;
-  margin: 30px auto;
+  margin: 30vh auto;
 }
 
 .clock-holder {
+  border: 1px solid black;
+  border-radius: 3px;
   width: 100%;
   background: #fff;
   margin: 30px auto;
@@ -29,7 +31,7 @@ body {
   text-align: center;
 }
 .stopwatch span{
-  background:#00ABA9;
+  background:rgb(73, 192, 98);
   color: #fff;
   display: inline-block;
   font-family: monospace;
@@ -44,6 +46,7 @@ body {
   margin-top: 30px;
   margin-left: 5px;
   border: none;
+  border-radius: 3px;
   padding: 12px 20px;
   font-size: 16px;
   text-transform: uppercase;
